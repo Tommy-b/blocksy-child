@@ -1,0 +1,106 @@
+.home-hero {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+		@media only screen and (min-width: $sm-start) {
+			padding-top: 120px;
+			padding-bottom: 120px;
+		}
+		
+		@media only screen and (min-width: $md-start) {
+			padding-top: 160px;
+			padding-bottom: 160px;
+		}
+	
+		h1, p {
+			text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+			text-align: left;
+			
+				@media only screen and (min-width: $sm-start) {
+					text-align: center;
+				}
+			
+		}
+		
+		h1 {
+			
+			
+				@media only screen and (min-width: $sm-start) {
+					max-width: 800px;
+					margin-left: auto !important;
+					margin-right: auto !important;
+				}
+				
+				@media only screen and (min-width: $md-start) {
+					max-width: none;
+				}
+			
+		}
+		
+		p.has-medium-font-size {
+			font-size: 16px !important;
+			
+				@media only screen and (min-width: $sm-start) {
+					font-size: 18px !important;
+					max-width: 600px;
+					margin-left: auto !important;
+					margin-right: auto !important;
+				}
+				
+				@media only screen and (min-width: $md-start) {
+					max-width: 800px;
+					font-size: 20px !important;
+				}
+			
+		}
+	
+}
+
+.home-cards {
+	gap: 2em 1em;
+	margin-top: -60px !important;
+	margin-bottom: 0 !important;
+	
+	@media only screen and (min-width: $lg-start) {
+		gap: 2em 2em;
+	}
+
+	.wp-block-column {
+		position: relative;
+		padding: 20px;
+		border-bottom: 8px solid #516482;
+		border-radius: 24px 24px 5px 5px;
+		box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.05) !important;
+
+			@media only screen and (min-width: $md-start) {
+				padding: 32px 20px 48px;
+				box-shadow: 0px -20px 20px rgba(0, 0, 0, 0.1) !important;
+			}
+
+			@media only screen and (min-width: $lg-start) {
+				padding: 32px 32px 48px;
+			}
+
+			h3 {
+				margin-top: 0;
+			}
+			
+			.wp-block-stackable-button-group {
+				margin-top: 32px !important;
+			}
+
+	}
+
+}
+
+.home-story-text p {
+	max-width: 510px;
+}
+
+.member-reverse .stk-row {
+	
+		@media only screen and (min-width: $sm-start) {
+			flex-direction: row-reverse;
+		}
+			
+}

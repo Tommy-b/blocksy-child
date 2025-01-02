@@ -1,0 +1,326 @@
+/**
+ * Theme Name: Blocksy Child
+ * Description: Blocksy Child theme
+ * Author: Creative Themes
+ * Template: blocksy
+ * Text Domain: blocksy
+ */
+a {
+  transition: all 0.3s ease !important;
+}
+
+button, input[type=submit], a.ct-button {
+  font-weight: 700 !important;
+}
+
+.on-top {
+  position: relative;
+  z-index: 2;
+}
+
+[data-header*=type-1] .ct-header [data-id=logo] .site-description {
+  font-family: "Arial", sans-serif;
+}
+
+.card-icon {
+  margin-block-end: 0.5em !important;
+}
+
+.ct-query-template-grid article {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .ct-query-template-grid article:hover {
+    transform: translateY(-10px);
+  }
+}
+.ct-query-template-grid article a::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.ct-query-template-grid article .ct-dynamic-data p {
+  font-size: 13px;
+}
+@media only screen and (min-width: 1000px) {
+  .ct-query-template-grid article .ct-dynamic-data p {
+    font-size: 14px;
+  }
+}
+
+.newsletter-cta {
+  padding-top: 40px;
+  padding-bottom: 48px;
+}
+.newsletter-cta h2, .newsletter-cta h3 {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.newsletter-cta h2 {
+  margin-bottom: 0 !important;
+}
+.newsletter-cta h3 {
+  margin-top: 8px !important;
+}
+.newsletter-cta .wpforms-container {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.newsletter-cta .wpforms-form {
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 3px;
+  padding: 24px;
+}
+.newsletter-cta .wpforms-form .wpforms-field-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #002344;
+  margin-bottom: 8px;
+}
+.newsletter-cta .wpforms-form .wpforms-field-label span {
+  color: #002344;
+}
+.newsletter-cta .wpforms-form .wpforms-field-row.wpforms-field-medium {
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: none;
+}
+.newsletter-cta .wpforms-form .wpforms-field-sublabel {
+  font-size: 12px;
+}
+.newsletter-cta .wpforms-form .wpforms-field-email {
+  padding: 0;
+}
+.newsletter-cta .wpforms-form input[type=email], .newsletter-cta .wpforms-form input[type=text] {
+  background: transparent;
+  max-width: none;
+  border-bottom: 2px solid #002344;
+  border-radius: 0 !important;
+  padding: 0 0;
+  outline: none;
+}
+.newsletter-cta .wpforms-form input[type=email]:focus, .newsletter-cta .wpforms-form input[type=text]:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+  border-bottom: 2px solid #D4AF37 !important;
+}
+.newsletter-cta .wpforms-form input[type=email]::placeholder, .newsletter-cta .wpforms-form input[type=text]::placeholder {
+  color: rgba(0, 35, 68, 0.6);
+  font-style: italic;
+}
+.newsletter-cta .wpforms-form .wpforms-field input.wpforms-error {
+  border-bottom: 2px solid red !important;
+}
+
+#adminmenu li.wp-menu-separator {
+  height: 1px;
+  margin: 12px 0;
+}
+#adminmenu div.separator {
+  background: #444;
+  height: 1px;
+}
+
+.home-hero {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+@media only screen and (min-width: 601px) {
+  .home-hero {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .home-hero {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+}
+.home-hero h1, .home-hero p {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+@media only screen and (min-width: 601px) {
+  .home-hero h1, .home-hero p {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .home-hero h1 {
+    max-width: 800px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .home-hero h1 {
+    max-width: none;
+  }
+}
+.home-hero p.has-medium-font-size {
+  font-size: 16px !important;
+}
+@media only screen and (min-width: 601px) {
+  .home-hero p.has-medium-font-size {
+    font-size: 18px !important;
+    max-width: 600px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .home-hero p.has-medium-font-size {
+    max-width: 800px;
+    font-size: 20px !important;
+  }
+}
+
+.home-cards {
+  gap: 2em 1em;
+  margin-top: -60px !important;
+  margin-bottom: 0 !important;
+}
+@media only screen and (min-width: 1200px) {
+  .home-cards {
+    gap: 2em 2em;
+  }
+}
+.home-cards .wp-block-column {
+  position: relative;
+  padding: 20px;
+  border-bottom: 8px solid #516482;
+  border-radius: 24px 24px 5px 5px;
+  box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.05) !important;
+}
+@media only screen and (min-width: 1000px) {
+  .home-cards .wp-block-column {
+    padding: 32px 20px 48px;
+    box-shadow: 0px -20px 20px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .home-cards .wp-block-column {
+    padding: 32px 32px 48px;
+  }
+}
+.home-cards .wp-block-column h3 {
+  margin-top: 0;
+}
+.home-cards .wp-block-column .wp-block-stackable-button-group {
+  margin-top: 32px !important;
+}
+
+.home-story-text p {
+  max-width: 510px;
+}
+
+@media only screen and (min-width: 601px) {
+  .member-reverse .stk-row {
+    flex-direction: row-reverse;
+  }
+}
+
+#footer [data-column=widget-area-1] h3 {
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+#footer [data-column=widget-area-1] .sub-text {
+  font-size: 12px;
+  margin-bottom: 24px;
+}
+#footer [data-column=widget-area-1] .ct-widget:not(:first-child) {
+  margin-top: 0px;
+}
+#footer [data-column=widget-area-1] .footer-address {
+  gap: 8px;
+}
+#footer [data-column=widget-area-1] .footer-address .icon-container {
+  margin-top: 2px;
+}
+#footer [data-column=widget-area-1] .wp-block-social-links {
+  gap: 16px;
+  margin-top: 32px;
+}
+#footer [data-column=widget-area-1] .wp-block-social-links li {
+  width: 30px;
+}
+#footer [data-column=widget-area-1] .wp-block-social-links li svg {
+  width: 100%;
+  height: auto;
+}
+#footer [data-column=widget-area-2] .ct-widget:not(:first-child) {
+  margin-top: 0px;
+}
+#footer [data-column=widget-area-2] .menu {
+  flex-direction: column;
+  gap: 8px;
+}
+#footer [data-column=widget-area-3] .ct-widget:not(:first-child) {
+  margin-top: 0px;
+}
+#footer [data-column=widget-area-3] .wpforms-container {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#footer [data-column=widget-area-3] .wpforms-form .wpforms-field-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+#footer [data-column=widget-area-3] .wpforms-form .wpforms-field-label span {
+  color: #D4AF37;
+}
+#footer [data-column=widget-area-3] .wpforms-form .wpforms-field-row.wpforms-field-medium {
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: none;
+}
+#footer [data-column=widget-area-3] .wpforms-form .wpforms-field-sublabel {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 3px 0 0;
+}
+#footer [data-column=widget-area-3] .wpforms-form .wpforms-field {
+  padding: 0 0 12px;
+}
+#footer [data-column=widget-area-3] .wpforms-form input[type=email], #footer [data-column=widget-area-3] .wpforms-form input[type=text], #footer [data-column=widget-area-3] .wpforms-form textarea {
+  background: rgba(255, 255, 255, 0.5);
+  max-width: none;
+  border-radius: 3px !important;
+  padding: 0 12px;
+  height: 38px;
+  outline: none;
+}
+#footer [data-column=widget-area-3] .wpforms-form input[type=email]:focus, #footer [data-column=widget-area-3] .wpforms-form input[type=text]:focus, #footer [data-column=widget-area-3] .wpforms-form textarea:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
+#footer [data-column=widget-area-3] .wpforms-form input[type=email]::placeholder, #footer [data-column=widget-area-3] .wpforms-form input[type=text]::placeholder, #footer [data-column=widget-area-3] .wpforms-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+#footer [data-column=widget-area-3] .wpforms-form textarea {
+  height: 80px;
+}
+#footer [data-column=widget-area-3] .wpforms-form button[type=submit] {
+  background: #D4AF37 !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 12px 24px !important;
+}
+#footer [data-column=widget-area-3] .wpforms-form .wpforms-field input.wpforms-error {
+  border-bottom: 1px solid red !important;
+}
+
+/*# sourceMappingURL=style.css.map */
