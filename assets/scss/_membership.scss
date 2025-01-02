@@ -21,6 +21,10 @@
 				.gfield_label {
 					font-family: 'Libre Baskerville', Sans-Serif;
 				}
+				
+				.gsection_title {
+					font-size: 22px;
+				}
 			
 				input {
 					font-size: 16px;
@@ -84,6 +88,16 @@
 							
 						}
 					
+				}
+				
+				&.member-break p {
+					font-weight: 600;
+					color: white;
+					background: v.$slate;
+					display: inline-block;
+					padding: 3px 8px;
+					border-radius: 5px;
+					font-size: 13px;
 				}
 			
 		}

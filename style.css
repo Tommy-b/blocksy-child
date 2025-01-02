@@ -240,6 +240,9 @@ button, input[type=submit], a.ct-button {
 #gform_wrapper_1 .gfield .gfield_label {
   font-family: "Libre Baskerville", Sans-Serif;
 }
+#gform_wrapper_1 .gfield .gsection_title {
+  font-size: 22px;
+}
 #gform_wrapper_1 .gfield input {
   font-size: 16px;
 }
@@ -279,6 +282,15 @@ button, input[type=submit], a.ct-button {
 }
 #gform_wrapper_1 .gfield#field_1_56 p i {
   font-size: 12px;
+}
+#gform_wrapper_1 .gfield.member-break p {
+  font-weight: 600;
+  color: white;
+  background: #516482;
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 13px;
 }
 
 #footer [data-column=widget-area-1] h3 {
