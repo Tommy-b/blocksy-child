@@ -3,6 +3,10 @@
 
 #gform_wrapper_1 {
 	
+		p {
+			margin-block-end: 8px;
+		}
+	
 		.gform_required_legend {
 			font-size: 13px;
 			font-style: italic;
@@ -13,6 +17,10 @@
 		}
 		
 		.gfield {
+			
+				.gfield_label {
+					font-family: 'Libre Baskerville', Sans-Serif;
+				}
 			
 				input {
 					font-size: 16px;
@@ -58,6 +66,24 @@
 				
 				.gchoice {
 					align-items: center;
+					
+						.gform-field-label--type-inline {
+							font-size: 15px;
+						}
+					
+				}
+				
+				&#field_1_56 {
+					
+						p {
+							font-size: 14px;
+							
+								i {
+									font-size: 12px;
+								}
+							
+						}
+					
 				}
 			
 		}

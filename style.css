@@ -227,12 +227,18 @@ button, input[type=submit], a.ct-button {
   }
 }
 
+#gform_wrapper_1 p {
+  margin-block-end: 8px;
+}
 #gform_wrapper_1 .gform_required_legend {
   font-size: 13px;
   font-style: italic;
 }
 #gform_wrapper_1 .gform_fields {
   row-gap: 20px;
+}
+#gform_wrapper_1 .gfield .gfield_label {
+  font-family: "Libre Baskerville", Sans-Serif;
 }
 #gform_wrapper_1 .gfield input {
   font-size: 16px;
@@ -264,6 +270,15 @@ button, input[type=submit], a.ct-button {
 }
 #gform_wrapper_1 .gfield .gchoice {
   align-items: center;
+}
+#gform_wrapper_1 .gfield .gchoice .gform-field-label--type-inline {
+  font-size: 15px;
+}
+#gform_wrapper_1 .gfield#field_1_56 p {
+  font-size: 14px;
+}
+#gform_wrapper_1 .gfield#field_1_56 p i {
+  font-size: 12px;
 }
 
 #footer [data-column=widget-area-1] h3 {
