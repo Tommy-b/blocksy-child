@@ -237,6 +237,9 @@ button, input[type=submit], a.ct-button {
 #gform_wrapper_1 .gform_fields {
   row-gap: 20px;
 }
+#gform_wrapper_1 .gf_progressbar .percentbar_blue {
+  background-color: #516482;
+}
 #gform_wrapper_1 .gfield .gfield_label {
   font-family: "Libre Baskerville", Sans-Serif;
 }

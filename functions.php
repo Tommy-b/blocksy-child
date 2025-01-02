@@ -5,6 +5,7 @@ if (! defined('WP_DEBUG')) {
 add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style('blocksy-child-style', get_stylesheet_uri());
+	wp_enqueue_script( 'blocksy-child-scripts', get_stylesheet_directory_uri() . '/assets/js/scripts.js', array(), '1.0.0', true );
 });
 
 function load_custom_wp_admin_style(){
