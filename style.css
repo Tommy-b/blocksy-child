@@ -227,6 +227,45 @@ button, input[type=submit], a.ct-button {
   }
 }
 
+#gform_wrapper_1 .gform_required_legend {
+  font-size: 13px;
+  font-style: italic;
+}
+#gform_wrapper_1 .gform_fields {
+  row-gap: 20px;
+}
+#gform_wrapper_1 .gfield input {
+  font-size: 16px;
+}
+#gform_wrapper_1 .gfield input:focus {
+  outline-width: 1px !important;
+  outline-color: rgb(177.7777777778, 144.8888888889, 38.2222222222) !important;
+}
+@media only screen and (min-width: 601px) {
+  #gform_wrapper_1 .gfield .ginput_complex.ginput_container.has_street.has_street2.has_city.has_state.has_zip.ginput_container_address.gform-grid-row .ginput_address_city {
+    inline-size: 60%;
+  }
+  #gform_wrapper_1 .gfield .ginput_complex.ginput_container.has_street.has_street2.has_city.has_state.has_zip.ginput_container_address.gform-grid-row .ginput_address_state {
+    inline-size: 20%;
+  }
+  #gform_wrapper_1 .gfield .ginput_complex.ginput_container.has_street.has_street2.has_city.has_state.has_zip.ginput_container_address.gform-grid-row .ginput_address_zip {
+    inline-size: 20%;
+  }
+}
+#gform_wrapper_1 .gfield #input_1_6, #gform_wrapper_1 .gfield #input_1_54 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin: 10px 0;
+}
+#gform_wrapper_1 .gfield #input_1_8 {
+  gap: 22px;
+  margin: 10px 0;
+}
+#gform_wrapper_1 .gfield .gchoice {
+  align-items: center;
+}
+
 #footer [data-column=widget-area-1] h3 {
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;

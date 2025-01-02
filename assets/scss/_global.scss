@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 a {
 	transition: all 0.3s ease !important;
 }
@@ -49,7 +51,7 @@ button, input[type="submit"], a.ct-button {
 				.ct-dynamic-data p {
 					font-size: 13px;
 					
-						@media only screen and (min-width: $md-start) {
+						@media only screen and (min-width: v.$md-start) {
 							font-size: 14px;
 						}
 					
@@ -88,11 +90,11 @@ button, input[type="submit"], a.ct-button {
 				.wpforms-field-label {
 					font-family: "Montserrat", sans-serif;
 					font-size: 14px;
-					color: $blue;
+					color: v.$blue;
 					margin-bottom: 8px;
 					
 						span {
-							color: $blue;
+							color: v.$blue;
 						}
 					
 				}
@@ -119,7 +121,7 @@ button, input[type="submit"], a.ct-button {
 				input[type=email], input[type=text] {
 					background: transparent;
 					max-width: none;
-					border-bottom: 2px solid $blue;
+					border-bottom: 2px solid v.$blue;
 					border-radius: 0 !important;
 					padding: 0 0;
 					outline: none;
@@ -128,11 +130,11 @@ button, input[type="submit"], a.ct-button {
 							box-shadow: none !important;
 							outline: none !important;
 							border: none !important;
-							border-bottom: 2px solid $gold !important;
+							border-bottom: 2px solid v.$gold !important;
 						}
 					
 						&::placeholder {
-							color: rgba($blue, 0.6);
+							color: rgba(v.$blue, 0.6);
 							font-style: italic;
 						}
 					

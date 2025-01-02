@@ -6,10 +6,10 @@
  * Text Domain: blocksy
  */
 
-@import 'assets/scss/variables';
+@use 'assets/scss/variables';
 
-@import 'assets/scss/global';
+@use 'assets/scss/global';
 
-@import 'assets/scss/home';
-@import 'assets/scss/membership';
-@import 'assets/scss/footer';
+@use 'assets/scss/home';
+@use 'assets/scss/membership';
+@use 'assets/scss/footer';

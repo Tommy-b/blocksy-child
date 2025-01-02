@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 #footer {
 	
 		[data-column="widget-area-1"] {
@@ -78,7 +80,7 @@
 							font-weight: 600;
 
 								span {
-									color: $gold;
+									color: v.$gold;
 								}
 
 						}
@@ -127,7 +129,7 @@
 						}
 						
 						button[type=submit] {
-							background: $gold !important;
+							background: v.$gold !important;
 							color: #fff !important;
 							border: none !important;
 							padding: 12px 24px !important;
